@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "\u001b[3~Mada",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "\u0016\u0016https://github.com/cojestmordo/heroku.git"
+  },
+  "keywords": [
+    "test"
+  ]
 }
