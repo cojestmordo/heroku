@@ -1,5 +1,12 @@
 var nodemailer = require('nodemailer');
 
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
+app.listen(port);
+
+
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
@@ -21,4 +28,4 @@ transporter.sendMail(mailOptions, function(error, info){
   } else {
     console.log('Email sent: ' + info.response);
   }
-}); r
+}); 
